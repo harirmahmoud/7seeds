@@ -1,6 +1,6 @@
 import React from 'react'
 import { NavbarMenu } from '../mockData/data'
-import logo from './logo-removebg-preview.png'
+
 import { MdMenu } from 'react-icons/md'
 import ResponsiveMenu from './ResponsiveMenu'
 import { useNavigate } from 'react-router'
