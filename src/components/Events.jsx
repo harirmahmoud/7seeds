@@ -18,21 +18,20 @@ export default function Events() {
               </div>
             </div>
             <div className="mx-auto grid max-w-5xl grid-cols-1 gap-6 py-12 md:grid-cols-2 lg:grid-cols-3">
-              <Card>
-                <CardHeader>
-                  <CardTitle className="text-blue-700">Annual Science Fair</CardTitle>
-                  <CardDescription className="flex items-center gap-1">
-                    <Calendar className="h-4 w-4" /> May 15, 2025
-                  </CardDescription>
-                </CardHeader>
-                <CardContent>
-                  <p>Showcase your research projects and innovations at our annual science fair.</p>
-                </CardContent>
-                <CardFooter>
-                  <Button className="w-full bg-blue-600 hover:bg-blue-700 relative top-0 sm:top-0 md:top-6 lg:top-7"
-                  >Show More</Button>
-                </CardFooter>
-              </Card>
+            <Card className="flex flex-col h-full">
+    <CardHeader>
+      <CardTitle className="text-blue-700">Annual Science Fair</CardTitle>
+      <CardDescription className="flex items-center gap-1">
+        <Calendar className="h-4 w-4" /> May 15, 2025
+      </CardDescription>
+    </CardHeader>
+    <CardContent>
+      <p>Showcase your research projects and innovations at our annual science fair.</p>
+    </CardContent>
+    <CardFooter className="mt-auto">
+      <Button className="w-full bg-blue-600 hover:bg-blue-700">Show More</Button>
+    </CardFooter>
+  </Card>
               <Card>
                 <CardHeader>
                   <CardTitle className="text-blue-700">Quantum Physics Workshop</CardTitle>
@@ -43,8 +42,8 @@ export default function Events() {
                 <CardContent>
                   <p>Learn about the fascinating world of quantum mechanics from leading experts.</p>
                 </CardContent>
-                <CardFooter>
-                  <Button className="w-full bg-blue-600 hover:bg-blue-700 relative top-0 sm:top-0 md:top-6 lg:top-7 ">Show More</Button>
+                <CardFooter className="mt-auto">
+                  <Button className="w-full bg-blue-600 hover:bg-blue-700 ">Show More</Button>
                 </CardFooter>
               </Card>
               <Card>
