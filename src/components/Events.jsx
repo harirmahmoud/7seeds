@@ -29,7 +29,8 @@ export default function Events() {
                   <p>Showcase your research projects and innovations at our annual science fair.</p>
                 </CardContent>
                 <CardFooter>
-                  <Button className="w-full bg-blue-600 hover:bg-blue-700 relative top-11">Show More</Button>
+                  <Button className="w-full bg-blue-600 hover:bg-blue-700 relative top-0 sm:top-0 md:top-6 lg:top-11"
+                  >Show More</Button>
                 </CardFooter>
               </Card>
               <Card>
@@ -43,7 +44,7 @@ export default function Events() {
                   <p>Learn about the fascinating world of quantum mechanics from leading experts.</p>
                 </CardContent>
                 <CardFooter>
-                  <Button className="w-full bg-blue-600 hover:bg-blue-700 relative top-5">Show More</Button>
+                  <Button className="w-full bg-blue-600 hover:bg-blue-700 relative top-0 sm:top-0 md:top-6 lg:top-11 ">Show More</Button>
                 </CardFooter>
               </Card>
               <Card>
